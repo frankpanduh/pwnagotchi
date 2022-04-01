@@ -40,3 +40,27 @@ Twitter | [@pwnagotchi](https://twitter.com/pwnagotchi)
 ## License
 
 `pwnagotchi` is made with ♥  by [@evilsocket](https://twitter.com/evilsocket) and the [amazing dev team](https://github.com/evilsocket/pwnagotchi/graphs/contributors). It is released under the GPL3 license.
+
+## REPO NOTES: Forked from @scifijunk with @ikornaselur Waveshare V3 support.
+---
+Testing Repo cloned from:
+@scifijunk - https://github.com/evilsocket/pwnagotchi/pull/1066
+---
+Added Waveshare V3 support from @ikornaselur PR:
+https://github.com/evilsocket/pwnagotchi/pull/1069
+
+Didn't do anything special here all credit goes to
+
+-  @scifijunk - pwnagotchi updated build image.
+-  @ikornaselur  - Waveshare_V3 display support driver work. 
+
+How to build img from this test:
+Built on Ubuntu 20.04, with GO 1.18
+---
+```
+cd
+git clone https://github.com/frankpanduh/pwnagotchi 
+cd pwnagotchi 
+make 
+```
+
