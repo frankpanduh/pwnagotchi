@@ -63,6 +63,8 @@
           - screen
           - golang
           - git
+          - aircrack-ng
+          - locate
           - build-essential
           - python3-pip
           - python3-mpi4py
@@ -230,7 +232,7 @@
 
   - name: clone pwnagotchi repository
     git:
-      repo: https://github.com/evilsocket/pwnagotchi.git
+      repo: https://github.com/frankpanduh/pwnagotchi.git
       dest: /usr/local/src/pwnagotchi
     register: pwnagotchigit
 
